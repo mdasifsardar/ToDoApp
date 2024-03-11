@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoApp</title>
+    <!-- 
+Font Awosome
+ -->
+    <script
+      src="https://kit.fontawesome.com/1bbb762626.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 
+My CSS
+ -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="app-area">
+      <h1>To Do App 2024</h1>
+      <div class="add-task-area">
+        <form id="add-task">
+          <div class="form-group">
+            <input type="text" placeholder="Your task name.." id="task" />
+            <button type="submit">Add Task</button>
+          </div>
+          <div id="error-div"></div>
+        </form>
+      </div>
+      <div class="tasks-area">
+        <h2>My Task List</h2>
+        <div id="all-tasks"></div>
+      </div>
+    </section>
+    <!-- 
+My Js
+ -->
+    <script src="script.js"></script>
+  </body>
+</html>
